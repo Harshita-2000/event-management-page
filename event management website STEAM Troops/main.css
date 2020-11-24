@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main ul{
+    display: inline-flex;
+    list-style: none;
+  }
+  .main ul li{
+    width: 130px;
+    margin: 5px 2px 5px 3px;
+    padding: 0px;
+  }
+  .main ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .main ul li:hover{
+    background-color: black;
+    border-radius: 200px;
+  }
+  .main {
+    max-width: 1100px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: blue;
+  }
