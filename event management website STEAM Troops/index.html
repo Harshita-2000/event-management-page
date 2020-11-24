@@ -159,7 +159,7 @@
         </div>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    <button id="myLogin" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Book Your Seat</button>
   </div>
 </section>
 
@@ -179,7 +179,6 @@
 
       <hr>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Book your seat</button>
       </div>
     </div>
   </div>
@@ -189,7 +188,7 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
       <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Register for the Aeromodelling and Designing workshop here.</h1>
-      <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Book My Seat</button>
+      <button id="mySignUp" class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Book Your Seat</button>
     </div>
   </div>
 </section>
@@ -263,6 +262,14 @@
 
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
+        location.href = "Login Form/login.html";
+    };
+
+    document.getElementById("myLogin").onclick = function () {
+        location.href = "Login Form/login.html";
+    };
+
+    document.getElementById("mySignUp").onclick = function () {
         location.href = "Login Form/login.html";
     };
 </script>
