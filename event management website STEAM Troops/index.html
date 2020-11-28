@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AeroSurfer </title>
+
+<!--The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. -->
+    <title>AeroSurfer</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="text-gray-700 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">steam troops</span>
-          </a>
-        <div class="main">
+          <nav>
+
+            <input type= "checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fa fa-bars"></i>
+
+            </label>
+            <label class="logo">steam troops</label>
+
+
           <ul> 
-            <li> <a href="#">Home</a></li>
+            <li> <a class="active" href="#">Home</a></li>
             <li> <a href="#about">About the event</a></li>
             <li> <a href="#contact">Contact Us</a></li>
-            <li id="myButton"> <a href="#contact">Book Your Seat</a></li>
+            <li id="myButton"> <a href="#">Book Your Seat</a></li>
           </ul>
+        </nav>
 
-        </div>
-      </header>
-    </div>
       <section class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="flex flex-wrap w-full">
@@ -160,7 +164,6 @@
       </div>
     </div>
     <button id="myLogin" class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Book Your Seat</button>
-  </div>
 </section>
 
 <section class="text-gray-700 body-font">
